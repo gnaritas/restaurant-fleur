@@ -581,6 +581,11 @@ footer a:hover{color:#fff}
   .hero{padding:64px 0 54px}
   h1{font-size:40px}
 }
+/* paragraph-junction rhythm (fixes 0px glue under the margin reset; matches .prose p 16px / .mapwrap 26px) */
+main p + p{margin-top:16px}
+main .cols + p{margin-top:26px}
+.cform p.small{margin-top:12px}
+.mapwrap + h3{margin-top:26px}
 '''
 open(os.path.join(PUB, "style.css"), "w", encoding="utf-8").write(CSS)
 
