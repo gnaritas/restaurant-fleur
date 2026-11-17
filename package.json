@@ -1,0 +1,8 @@
+{
+  "name": "restaurant-fleur",
+  "version": "1.0.0",
+  "description": "Restaurant Fleur — French-American restaurant opening soon in the Justice Building, 101 W Capitol Ave, Little Rock AR (static site + node form relay)",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

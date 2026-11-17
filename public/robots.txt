@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /thanks
+Disallow: /404
+
+Sitemap: https://restaurant-fleur-demo.up.railway.app/sitemap.xml
